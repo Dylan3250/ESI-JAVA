@@ -1,0 +1,9 @@
+*.DS_Store
+build/*
+manifest.mf
+dist/
+*/nbproject/private/*
+target/
+/DEV2/td03/Memory/nbproject/
+/DEV2/td04/nbproject/
+/DEV2/td05/nbproject/
