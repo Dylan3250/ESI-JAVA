@@ -1,13 +1,3 @@
-*.DS_Store
-build/*
-manifest.mf
-dist/
-*/nbproject/private/*
-target/
-/DEV2/td03/Memory/nbproject/
-/DEV2/td04/nbproject/
-/DEV2/td05/nbproject/
-
 # Compiled class file
 *.class
 
@@ -41,7 +31,7 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
-
+nbproject/
 #
 # Project specific excludes
 #
@@ -88,7 +78,7 @@ dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
-
+dependency-reduced-pom.xml
 
 # OS
 .DS_Store

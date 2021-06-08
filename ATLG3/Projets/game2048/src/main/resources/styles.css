@@ -1,0 +1,165 @@
+/* -----------------------------
+ ------------ PRINCIPAL VBOX
+ ----------------------------- */
+.body {
+    -fx-background-color: #F6FCFC;
+}
+
+/* -----------------------------
+ ------------ BOARD
+ ----------------------------- */
+.board {
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+}
+
+/* -----------------------------
+ ------------ LABEL
+ ----------------------------- */
+.label {
+    -fx-font-size: 22px;
+    -fx-max-height: 85px;
+    -fx-max-width: 85px;
+    -fx-min-height: 85px;
+    -fx-min-width: 85px;
+    -fx-alignment: center;
+    -fx-text-fill: #B5C8CA;
+    -fx-background-color: #C8DEDF;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+}
+
+.label2 {
+    -fx-text-fill: #446364;
+    -fx-background-color: #BCD2D3;
+}
+
+.label4 {
+    -fx-text-fill: #446364;
+    -fx-background-color: #98B0B1;
+}
+
+.label8 {
+    -fx-text-fill: white;
+    -fx-background-color: #506768;
+}
+
+.label16 {
+    -fx-text-fill: #8B6B43;
+    -fx-background-color: #EEC18B;
+}
+
+.label32 {
+    -fx-text-fill: #8B6B43;
+    -fx-background-color: #E1A04F;
+}
+
+.label64 {
+    -fx-text-fill: #812727;
+    -fx-background-color: #ECA2A2;
+}
+
+.label128 {
+    -fx-text-fill: #812727;
+    -fx-background-color: #9A5F5F;
+}
+
+.label256 {
+    -fx-text-fill: white;
+    -fx-background-color: #552323;
+}
+
+.label512 {
+    -fx-text-fill: #53885B;
+    -fx-background-color: #A1EDAC;
+}
+
+.label1024 {
+    -fx-text-fill: white;
+    -fx-background-color: #1D5C27;
+}
+
+.label2048 {
+    -fx-text-fill: white;
+    -fx-background-color: #C208A9;
+}
+/* -----------------------------
+ --------- ACTIONS LIST
+ ----------------------------- */
+.list-view,
+.split-pane {
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+.list-view {
+    -fx-background-color: #C8DEDF;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-outline: 0;
+}
+
+.list-cell:filled:selected:focused,
+.list-cell:filled:selected {
+    -fx-background-color: 
+        linear-gradient(#C8DEDF 0%, #C4DBDC 25%, #BFD4D5 75%, #B5CACB 100%);
+    -fx-text-fill: #3C5A5B;
+}
+
+.list-cell {
+    -fx-text-fill: #4D6E6F;
+}
+
+.list-cell:even {
+    -fx-background-color: #E7F3F3;
+}
+
+#one .list-cell {
+    -fx-background-color: red;
+}
+
+/* -----------------------------
+ ------------ SCORE AND DISPLACEMENT
+ ----------------------------- */
+.score, .displacement {
+    -fx-max-height: inherit;
+    -fx-max-width: inherit;
+    -fx-min-height: inherit;
+    -fx-min-width: inherit;
+    -fx-font-size: 13px;
+    -fx-padding: 8px 22px 8px 22px;
+    -fx-text-fill: #4D6E6F;
+    -fx-background-color: #C8DEDF;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+}
+
+/* -----------------------------
+ ----------- BUTTONS
+ ----------------------------- */
+.button {
+    -fx-min-width: 228px;
+    -fx-cursor: hand;
+    -fx-padding: 5px 22px 5px 22px;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: #C8DEDF;
+    -fx-text-fill: #4D6E6F;
+    -fx-background-insets: 0 0 0 0, 0, 1px, 2px;
+    -fx-outline: 0;
+}
+
+.button:hover {
+    -fx-background-color: #CFE9EA;
+}
+
+.button:pressed,
+.button:default:hover:pressed {
+    -fx-background-color: white;
+    -fx-text-fill: #7E999B;
+}

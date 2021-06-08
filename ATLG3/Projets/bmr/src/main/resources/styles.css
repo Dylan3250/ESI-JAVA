@@ -1,0 +1,8 @@
+.default-color0.chart-series-line { -fx-stroke: #177DEF; }
+.default-color1.chart-series-line { -fx-stroke: #B533FF; }
+
+.default-color0.chart-line-symbol { -fx-background-color: #177DEF; }
+.default-color1.chart-line-symbol { -fx-background-color: #B533FF; }
+
+.tab-header-background { -fx-background-color: transparent; }
+.tab-pane > .tab-header-area > .headers-region { -fx-cursor: hand; }
